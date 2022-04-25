@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/buttonContact"
+        android:icon="@drawable/ic_baseline_person_outline_24"
+        android:title="Contact"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/buttonAddContact"
+        android:icon="@drawable/ic_baseline_person_add_alt_24"
+        android:title="AddContact"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/buttonSetting"
+        android:icon="@drawable/ic_baseline_settings_24"
+        android:title="Setting"
+        app:showAsAction="always"
+        />
+
+</menu>
