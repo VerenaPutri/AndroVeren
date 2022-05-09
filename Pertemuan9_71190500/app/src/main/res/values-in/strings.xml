@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MDX</string>
+    <string name="password">Sandi</string>
+    <string name="forget">Lupa Sandi</string>
+    <string name="login">Masuk</string>
+    <string name="logout">Keluar</string>
+    <string name="welcome">Selamat Datang di MDX</string>
+    <string name="size">Ukuran Huruf</string>
+    <string name="language">Bahasa</string>
+
+    <string-array name="Languages">
+        <item>english</item>
+        <item>indonesia</item>
+    </string-array>
+</resources>

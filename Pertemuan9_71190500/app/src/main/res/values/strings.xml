@@ -1,0 +1,19 @@
+<resources>
+
+
+    <string name="app_name">MDX</string>
+    <string name="password">Password</string>
+    <string name="forget">Forget Password</string>
+    <string name="login">Login</string>
+    <string name="logout">Logout</string>
+    <string name="welcome">Welcome To MDX</string>
+    <string name="size">Font Size</string>
+    <string name="language">Language</string>
+
+    <string-array name="Languages">
+        <item>english</item>
+        <item>indonesia</item>
+    </string-array>
+
+</resources>
+
