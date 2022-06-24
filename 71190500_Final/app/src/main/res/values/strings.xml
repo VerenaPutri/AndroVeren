@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name" translatable="false">71190500_Final</string>
+    <string name="judul" translatable="false">Judul Film</string>
+    <string name="genre" translatable="false">Genre</string>
+    <string name="produser" translatable="false">Produser</string>
+    <string name="pemeran" translatable="false">Pemeran Utama</string>
+    <string name="tahunrilis" translatable="false">Tahun Rilis</string>
+    <string name="save" translatable="false">Save</string>
+    <string name="update" translatable="false">Update</string>
+
+
+
+</resources>

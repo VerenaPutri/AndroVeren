@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".detailFilm"
+    android:background="@drawable/bcg"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/foto"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="5dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/judul"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:fontFamily="serif"
+            android:text="Judul"
+            android:textColor="#050505"
+            android:textSize="25sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintVertical_bias="0.065"
+            tools:layout_editor_absoluteX="0dp" />
+
+        <TextView
+            android:id="@+id/genre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:fontFamily="@font/cagliostro"
+            android:text="Genre"
+            android:textColor="#050505"
+            android:textSize="25sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintVertical_bias="0.065"
+            tools:layout_editor_absoluteX="0dp" />
+
+        <TextView
+            android:id="@+id/produser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:fontFamily="@font/cagliostro"
+            android:text="Produser"
+            android:textColor="#050505"
+            android:textSize="25sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintVertical_bias="0.065"
+            tools:layout_editor_absoluteX="0dp" />
+
+        <TextView
+            android:id="@+id/pemeran"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:fontFamily="@font/cagliostro"
+            android:text="Pemeran Utama"
+            android:textColor="#050505"
+            android:textSize="25sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+
+            app:layout_constraintVertical_bias="0.065"
+            tools:layout_editor_absoluteX="0dp" />
+
+        <TextView
+            android:id="@+id/tahunRilis"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:fontFamily="@font/cagliostro"
+            android:text="Tahun Rilis"
+            android:textColor="#050505"
+            android:textSize="25sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+
+            app:layout_constraintVertical_bias="0.065"
+            tools:layout_editor_absoluteX="0dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginVertical="5dp"
+            android:layout_marginHorizontal="20dp"
+            android:layout_weight="1"
+            android:backgroundTint="#ff0000"
+            android:fontFamily="@font/cagliostro"
+            android:text="Back" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

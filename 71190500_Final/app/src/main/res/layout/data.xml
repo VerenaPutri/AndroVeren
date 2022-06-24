@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/pinksoft">
+
+    <TextView
+        android:id="@+id/judul"
+        style="@style/TextAppearance.MaterialComponents.Caption"
+        android:layout_width="236dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.032"
+        app:layout_constraintStart_toEndOf="@+id/imageView2"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Judul   : Moana" />
+
+    <TextView
+        android:id="@+id/genre"
+        style="@style/TextAppearance.MaterialComponents.Caption"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/judul"
+        app:layout_constraintStart_toStartOf="@+id/judul"
+        app:layout_constraintTop_toBottomOf="@+id/judul"
+        app:layout_constraintVertical_bias="0.0"
+        tools:text="Genre : Teen" />
+
+    <TextView
+        android:id="@+id/produser"
+        style="@style/TextAppearance.MaterialComponents.Caption"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@id/genre"
+        app:layout_constraintStart_toStartOf="@+id/judul"
+        app:layout_constraintTop_toBottomOf="@id/genre"
+        app:layout_constraintVertical_bias="0.0"
+        tools:text="Umur : 22 Tahun" />
+
+    <TextView
+        android:id="@+id/pemeran"
+        style="@style/TextAppearance.MaterialComponents.Caption"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@id/produser"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/genre"
+        app:layout_constraintTop_toBottomOf="@id/produser"
+        app:layout_constraintVertical_bias="0.046"
+        tools:text="Pemeran Utama : Gak tau, tidak tau, dan lihat aja" />
+
+    <TextView
+        android:id="@+id/tahunRilis"
+        style="@style/TextAppearance.MaterialComponents.Caption"
+        android:layout_width="104dp"
+        android:layout_height="16dp"
+        android:layout_marginEnd="132dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@id/pemeran"
+        app:layout_constraintStart_toStartOf="@+id/produser"
+        app:layout_constraintTop_toBottomOf="@id/pemeran"
+        app:layout_constraintVertical_bias="0.0"
+        tools:text="Tahun Rilis : 2022" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/bcg"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="68dp"
+        android:layout_height="87dp"
+        android:layout_marginStart="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.705"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <LinearLayout
+        android:layout_width="86dp"
+        android:layout_height="118dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/produser"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageButton
+            android:id="@+id/btn_delete"
+            android:layout_width="match_parent"
+            android:layout_height="53dp"
+            app:srcCompat="@drawable/ic_baseline_delete_24" />
+
+        <ImageButton
+            android:id="@+id/btn_update"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_baseline_edit_24" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
